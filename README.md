@@ -48,9 +48,11 @@ This project focuses on analyzing YouTube trending video data to provide actiona
 - **AWS Glue**:
   - **Crawler**: Automatically generated a schema for the transformed Parquet files.
   - **ETL Job**: Processed and transformed data for analytics.
+    
+- **Testing Endpoints**: Used **AWS Lambda** functions to test and validate data transformation steps for integrity and correctness.
+
 ![cr](https://github.com/user-attachments/assets/c73d485b-ab47-4995-8555-5a141979c7e3)
 
-- **Testing Endpoints**: Used **AWS Lambda** functions to test and validate data transformation steps for integrity and correctness.
 
 ### 3. Data Analytics
 - **Amazon Athena**:
